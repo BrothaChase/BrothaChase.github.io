@@ -43,7 +43,9 @@
         createPlatform(690,420, .20, 70);//wall
         createPlatform(770,540,.40);//platform on edge 
         createPlatform(50,500, .35,.20)//left platform
-        createPlatform(300,400, .50, .20)
+        createPlatform(230,400, .50, .20) //middle platform
+        createPlatform(0,330, .20, .20) //middle left 
+        createPlatform(300, 250, .50, .20)
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
