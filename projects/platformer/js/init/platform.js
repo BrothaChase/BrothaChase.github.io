@@ -39,13 +39,14 @@
         // example:
         createPlatform(300,590, .50, .20); //first platform near floor
         createPlatform(550,500, .35,.20); //platform near wall
-        createPlatform(0,100);// Finsish
+        createPlatform(0,100, .75, .20);// Finsish
         createPlatform(690,420, .20, 70);//wall
         createPlatform(770,540,.40);//platform on edge 
-        createPlatform(50,500, .35,.20)//left platform
+        createPlatform(20,500, .35,.20)//left platform
         createPlatform(230,400, .50, .20) //middle platform
         createPlatform(0,330, .20, .20) //middle left 
         createPlatform(300, 250, .50, .20)
+        createPlatform(550, 150, .35, .20)
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
