@@ -71,10 +71,12 @@ var init = function (window) {
 
 
             // TODO 9 : Iterate over the array
-           for (var c = 0; c < 100; c++) {
-            var eachCircle = circles[c];
-           
+           for (var c = 0; c < circles.length; c++) {
+            //var eachCircle = circle.length[c]
+            physikz.updatePosition(circles[c])
+            game.checkCirclePosition(circles[c])
            }
+           
         }
 
         /* 
