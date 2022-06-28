@@ -5,7 +5,7 @@
     let 
         opspark = window.opspark,
         animations = {},
-        spawnX = 30,
+        spawnX = 385,
         spawnY = 600;
         
     opspark.createPlayer = function (game) {
@@ -328,3 +328,6 @@
         return asset;
     }
 })(window);
+
+
+
